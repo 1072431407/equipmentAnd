@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">equipment</string>
+    <string-array name="languages">
+        <item>内温</item>
+        <item>外温 </item>
+        <item>转速</item>
+        <item>时间间隔</item>
+    </string-array>
+</resources>

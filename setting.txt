@@ -1,0 +1,3 @@
+distributionUrl=https\://services.gradle.org/distributions/gradle-5.4.1-all.zip
+classpath 'com.android.tools.build:gradle:3.5.3'
+jdk 11

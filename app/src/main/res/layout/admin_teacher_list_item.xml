@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:padding="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="4dp"
+            android:layout_height="44dp"/>
+        <ImageView
+            android:background="@drawable/home_down"
+            android:layout_gravity="center_vertical"
+            android:layout_width="30dp"
+            android:layout_height="30dp"/>
+        <TextView
+            android:id="@+id/class_number"
+            android:layout_marginLeft="@dimen/size_00_12"
+            android:text="教室号"
+            android:textSize="@dimen/size_00_18"
+            android:textColor="@color/black"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/school"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_marginRight="@dimen/size_00_10"
+            android:text="注册时间:2016-06-14"
+            android:textSize="@dimen/size_00_14"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/delete"
+            android:background="@drawable/cha"
+            android:layout_marginRight="@dimen/size_00_12"
+            android:layout_gravity="center_vertical"
+            android:layout_width="24dp"
+            android:layout_height="24dp"/>
+    </LinearLayout>
+</LinearLayout>
