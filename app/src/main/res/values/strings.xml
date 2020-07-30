@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">equipment</string>
+    <string name="app_name">化工实验</string>
     <string-array name="languages">
         <item>内温</item>
         <item>外温 </item>
