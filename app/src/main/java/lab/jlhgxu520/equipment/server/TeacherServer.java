@@ -159,7 +159,7 @@ public class TeacherServer {
                         callBack.onFailure("网络异常!");
                         break;
                     case 3:
-                        callBack.onFailure("当前没有课堂!");
+                        callBack.onFailure("该实验室当前没有设备!");
                         break;
                 }
             }

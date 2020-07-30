@@ -146,6 +146,17 @@ public class LaboratoryActivity extends Activity {
                 LaboratoryActivity.this.class_state = 1;
                 setView();
                 loadingDialog.dismiss();
+                NormalDialog normalDialog = new NormalDialog(LaboratoryActivity.this);
+                normalDialog.setPositiveText("确定");
+                normalDialog.setTitle("课堂号");
+                normalDialog.setContent(class_code);
+                normalDialog.show();
+                normalDialog.setPositiveListener(new BaseDialog.OnDialogClickListener() {
+                    @Override
+                    public void onClick(BaseDialog dialog) {
+                        normalDialog.dismiss();
+                    }
+                });
             }
 
             @Override
